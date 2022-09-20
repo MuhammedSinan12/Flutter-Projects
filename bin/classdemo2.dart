@@ -13,11 +13,15 @@ void main(List<String> args) {
   print("Phone number is${student1.phone = 9645378282}");
   print("Course is ${Student.course}");
 
+  print("***************************");
+
   Student student2 = Student();
   print("Name of Student ${student2.name = "Anshi"}");
   print("Age of Student${student2.age = 21}");
   print("Phone number is ${student2.phone = 9641228282}");
   print("Course is ${Student.course}");
+
+  print("***************************");
 
   Student student3 = Student();
   print("Name of Student${student3.name = "Akhil"}");
