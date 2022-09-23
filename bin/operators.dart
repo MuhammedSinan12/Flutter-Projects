@@ -74,4 +74,36 @@ void main() {
   int z = 12; //1100
   print(z >> 2); //0000 0011
   print(z << 1); //0001 1000
+
+  var data = 20;
+  print(data is int); //true or false and (is!)
+  print(data is int);
+
+  print('ternary operator');
+  //syntax -> condition ? true statement : false statement ;
+
+  var age = 22;
+  bool result = age >= 18 ? true : false;
+  print(result);
+
+  var mark = 40;
+  var res = mark < 40 ? "passed" : "failed";
+  print(res);
+
+  var uname = 'admin';
+  var password = 'abcd';
+
+  var login = (uname == 'admin' && password == 'abcd')
+      ? 'Login Succesful'
+      : 'Login Failed';
+  print(login);
+
+  var num1 = 10, num2 = 20;
+
+  var largest = (num1 > num2) ? 'num2 largest' : 'num1smallest';
+  print(largest);
+
+  var u = 1, v = 2, w = 3;
+  var largest1 = (u > v) ? (u > w ? u : w) : (v > w ? v : w);
+  print(largest1);
 }
