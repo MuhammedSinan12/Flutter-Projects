@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void main() {
+void main(List<String> args) {
   print("enter your name");
 
   String? name = stdin.readLineSync();
