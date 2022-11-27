@@ -40,7 +40,6 @@ void main(List<String> args) {
     }
   }
   print("Largest value in the list : $largest");
-
   var mult;
   for (int i = 0; i < list.length; i++) {
     if (list[i] % 2 == 0) {
